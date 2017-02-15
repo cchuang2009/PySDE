@@ -31,17 +31,6 @@ Necessary required submodules of scitools have been added to PySDE since 0.4; th
    - Python2 version: cd Python2; python setup.py install
    - Python3 version: cd Python3; python setup.py install
 
-## Demos
-
-the files in demos include
-
-- DiffusionJumps-1.sws  DiffusionJumps.sws (for Sage notebook)
-- demo.py 
-- sdedemo.tm, sdeJump.tm  (for TeXmacs and Python plugin)
-- sdedemo.ipynb (for IPython notebook, including reduced nonlinear DE, jump-simulation)
-- sdedemo.pdf 
-
-
 
 ## Usages
 
@@ -107,10 +96,10 @@ plt.savefig('Milstein.eps')
 
 ## DEMO
 
-1. python code: http://diffusion.cgu.edu.tw/ftp/sde (demo.py)
-2. TeXmacs with Python plugin: http://diffusion.cgu.edu.tw/ftp/sde (sdedemo.py)
-3. TeXmacs with Python plugin: SDE with jumps http://diffusion.cgu.edu.tw/ftp/sde (sdejump.py)
-4. Sage notebook(): http://diffusion.cgu.edu.tw/ftp/sde DiffusionJumps.sws, DiffusionJumps-1.sws
+1. python code: demo/demo.py)
+- TeXmacs with Python plugin: demo/sdedemo.tm, demo/sdeJump.tm
+- Sage notebook(): demo/DiffusionJumps.sws, demo/DiffusionJumps-1.sws
+- Jupyter/notebook: demo/sdedemo.ipynb
 
 ## Developer:
 

@@ -86,7 +86,8 @@ plt.title(r"$d X_t=-dt+d W_t,X_0=1$")
 plt.legend()
 plt.savefig('Milstein.eps')
 </pre>
-- SDE with jumps
+- SDE with jumps<br>
+
 <img src="imgs/sdejump.png" width=60% />
 
 ## Note

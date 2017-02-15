@@ -86,10 +86,12 @@ plt.title(r"$d X_t=-dt+d W_t,X_0=1$")
 plt.legend()
 plt.savefig('Milstein.eps')
 </pre>
+- SDE with jumps
+<img src="imgs/sdejump.png" width=60% />
 
 ## Note
 
-* Symbolic/Numberic SDE solvers depend on part of the Scitools module which had been extracted and incorporated with the library, 
+* Symbolic/Numeric SDE solvers depend on part of the Scitools module which had been extracted and incorporated with the library, 
   which it is not necessary to install scitools again. (removed since 0.4)
  
 * Schemes and examples for simulating SDE’s with jumps adds, see demo/sdedemo.ipynb.
